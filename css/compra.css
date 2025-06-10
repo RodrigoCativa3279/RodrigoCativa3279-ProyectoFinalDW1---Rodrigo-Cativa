@@ -1,0 +1,125 @@
+html{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.logo{
+    width: 25%;
+    margin: 10px;
+}
+
+.nav-link{
+    font-size: 25px;
+    margin: 26px;
+    align-items: center;
+    text-align: center;
+}
+
+.iconcuenta{
+    width: 60px;
+    height: auto;
+    background-color: transparent;
+    padding: 7px;
+    border-radius: 50px;
+}
+
+.lupa{
+    width: 20px;
+    height: auto;
+}
+
+
+.navbar{
+    background-color: rgba(255, 217, 0, 0.938);
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    font-family: "Exile", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+
+body{
+    font-size: 20px;
+    font-family: "Smooch Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(233, 231, 231);
+    margin: 0 auto;
+    padding: 0%;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 20px 0 20px 0px;
+}
+
+.carrito {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.eliminar {
+    align-items: right;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.resumen {
+    background: #f1f3f5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.resumen .fila {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.resumen .total {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.pagar {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.boton{
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .producto {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    .producto img {
+    margin-bottom: 10px;
+    }
+
+    .eliminar {
+    align-self: flex-end;
+    margin-top: 10px;
+    }
+}
